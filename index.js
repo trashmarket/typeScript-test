@@ -1,6 +1,7 @@
-var divide = function (dividend, divisor) {
+"use strict";
+const divide = (dividend, divisor) => {
     return dividend / divisor;
 };
-var hello = true;
+let hello = true;
 hello = false;
-var bigInt = 100n;
+let bigInt = 100n;
